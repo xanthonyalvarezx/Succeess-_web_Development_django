@@ -1,0 +1,6 @@
+<div id="author_form_container">
+  <form id="generic_form" method="post" action="">
+    {% csrf_token%} {{form.as_p}}
+    <input type="submit" value="submit" />
+  </form>
+</div>
